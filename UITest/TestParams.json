@@ -1,0 +1,5 @@
+﻿{
+  "Selenium": {
+    "Browsers": [ "Chrome", "Firefox", "MobileEmulator"]
+  }
+}

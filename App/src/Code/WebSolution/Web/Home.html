@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../CSS/StyleSheet.css">
+    <script src="../Scripts/CalcFunctions.js"></script>
+    <script src="../Scripts/UIFunctions.js"></script>
+
+</head>
+<body>
+    <div id="messageBoxContainer" class="message-box">
+        <h3>Message:</h3>
+        <div id="message-body" class="message-body"></div>
+        <input type="button" class="button1" value="OK" onclick="hideMessage()" />
+    </div>
+
+    <div id="change-text-form" class="change-text-form">
+        <form action="" method="post" class="smart-green">
+            <span>Text To Change :</span>
+            <textarea id="changeText" name="changeText" placeholder="Text to be changed"></textarea>
+            <input type="button" class="button" value="Change" onclick="changeH1Text()" />
+
+        </form>
+    </div>
+
+    <div id="change-color-form" class="change-color-form">
+        <div id="color1" class="color1" onclick="changeH1Color('color1')"></div>
+        <div id="color2" class="color2" onclick="changeH1Color('color2')"></div>
+        <div id="color3" class="color3" onclick="changeH1Color('color3')"></div>
+        <div id="color4" class="color4" onclick="changeH1Color('color4')"></div>
+        <div id="color5" class="color5" onclick="changeH1Color('color5')"></div>
+
+
+    </div>
+
+
+    <div class="dropdown">
+        <div id="menu" class="dropdown-content">
+            <a href="#" onclick="displayChangeTextForm()">
+                <img class="icon" src="../Images/Editicon.png" />
+                Change Text</a>
+            <a href="#" onclick="displayChangeColorForm()">
+                <img class="icon" src="../Images/Color.png" />
+                Change Color</a>
+
+        </div>
+    </div>
+    <form action="" method="post" class="smart-green">
+        <h1 id="title" onclick="showDiv()">Hello, Learn DevOps from DevOps Visions
+        <span>Please fill all the texts in the fields.</span>
+        </h1>
+        <label>
+            <span>First Number :</span>
+            <input id="firstNumber" type="text" name="firstNumber" placeholder="First Number" maxlength="5" />
+        </label>
+
+        <label>
+            <span>Second Number :</span>
+            <input id="secondNumber" type="text" name="secondNumber" placeholder="Second Number" maxlength="5" />
+        </label>
+
+        <label>
+            <span>Result :</span>
+            <textarea id="result" name="result"></textarea>
+        </label>
+
+        <label>
+            <span>&nbsp;</span>
+            <input id="sumbtn" type="button" class="button" value="Sum" onclick="sum()" />
+            <input id="dividebtn" type="button" class="button" value="Divide" onclick="divide()" />
+            <input id="subtractbtn" type="button" class="button" value="Subtract" onclick="subtract()" />
+
+        </label>
+    </form>
+</body>
+</html>
