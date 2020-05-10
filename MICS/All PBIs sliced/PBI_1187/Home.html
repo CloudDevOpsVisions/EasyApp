@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <script src="UIFunctions.js"></script>
+
+</head>
+<body>
+    <div id="messageBoxContainer" class="message-box">
+        <h3>Message:</h3>
+        <div id="message-body" class="message-body"></div>
+        <input type="button" class="button1" value="OK" onclick="hideMessage()" />
+    </div>
+
+    <div id="change-text-form" class="change-text-form">
+        <form action="" method="post" class="smart-green">
+            <span>Text To Change :</span>
+            <textarea id="changeText" name="changeText" placeholder="Text to be changed"></textarea>
+            <input type="button" class="button" value="Change" onclick="changeH1Text()" />
+
+        </form>
+    </div>
+
+    
+    <div class="dropdown">
+        <div id="menu" class="dropdown-content">
+            <a href="#" onclick="displayChangeTextForm()">
+                <img class="icon" src="../Images/Editicon.png" />
+                Change Text
+            </a>
+            
+
+        </div>
+    </div>
+    <form action="" method="post" class="smart-green">
+        <h1 id="title" onclick="showDiv()">
+            Hello World Front end development
+        </h1>
+      </form>
+</body>
+</html>

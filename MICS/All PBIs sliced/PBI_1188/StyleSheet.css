@@ -1,0 +1,143 @@
+﻿/*######## Smart Green ########*/
+.smart-green {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 470px;
+    padding: 30px 30px 20px 30px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+
+.smart-green h1 {
+    font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 20px 0px 20px 40px;
+    display: block;
+    margin: -30px -30px 10px -30px;
+    color: #FFF;
+    background: #0078D7;
+    text-shadow: 1px 1px 1px #949494;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #89AF4C;
+    position: relative;
+}
+
+.smart-green .button {
+    background-color: #0078D7;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #949494;
+}
+
+
+.dropdown {
+    position: relative;
+    /*display: inline-block;*/
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 760px;
+    top: 50px;
+    background-color: #E9E9E9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    font: normal 14px/14px Arial, Helvetica, sans-serif;
+}
+
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+    .dropdown-content a:hover {
+        background-color: rgba(0,0,0,0.2);
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: -5px;
+}
+
+
+.change-color-form {
+    display: none;
+    position: absolute;
+    left: 820px;
+    top: 30px;
+    background-color: #E9E9E9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    font: normal 14px/14px Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    width: 200px;
+}
+
+
+div:empty {
+    width: 3px;
+    height: 5px;
+    display: inline-block;
+    padding: 15px 16px;
+    margin-right: -4px;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.color1 {
+    background: #1ABC9C;
+}
+
+.color2 {
+    background: #2ECC71;
+}
+
+.color3 {
+    background: #3498DB;
+}
+
+.color4 {
+    background: #9B59B6;
+}
+
+.color5 {
+    background: #34495E;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <script src="UIFunctions.js"></script>
+
+</head>
+<body>
+  
+    <div id="change-color-form" class="change-color-form">
+        <div id="color1" class="color1" onclick="changeH1Color('color1')"></div>
+        <div id="color2" class="color2" onclick="changeH1Color('color2')"></div>
+        <div id="color3" class="color3" onclick="changeH1Color('color3')"></div>
+        <div id="color4" class="color4" onclick="changeH1Color('color4')"></div>
+        <div id="color5" class="color5" onclick="changeH1Color('color5')"></div>
+
+
+    </div>
+
+
+    <div class="dropdown">
+        <div id="menu" class="dropdown-content">
+            <a href="#" onclick="displayChangeColorForm()">
+                <img class="icon" src="../Images/Color.png" />
+                Change Color</a>
+
+        </div>
+    </div>
+    <form action="" method="post" class="smart-green">
+        <h1 id="title" onclick="showDiv()">Hello World Front end development
+        </h1>
+        <label>
+            <input id="sumbtn" type="button" class="button" value="Sum"  />
+            <input id="dividebtn" type="button" class="button" value="Divide" />
+            <input id="subtractbtn" type="button" class="button" value="Subtract" />
+
+        </label>
+    </form>
+</body>
+</html>

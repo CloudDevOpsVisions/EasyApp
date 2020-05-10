@@ -1,0 +1,132 @@
+﻿/*######## Smart Green ########*/
+.smart-green {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 470px;
+    background: #F8F8F8;
+    padding: 30px 30px 20px 30px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.message-box {
+    display: none;
+    position: absolute;
+    left: 560px;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    width: 300px;
+    background: #e9e9e9;
+    padding: 30px 30px 20px 30px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #E74C3C;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    z-index: 10;
+}
+
+.message-box h3 {
+    font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 8px 0px 16px 17px;
+    display: block;
+    margin: -30px -30px 10px -30px;
+    color: #FFF;
+    background: #004578;
+    text-shadow: 1px 1px 1px #949494;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #89AF4C;
+    position: relative;
+}
+
+.smart-green span {
+    display: block;
+    font-size: 11px;
+    color: #555;
+}
+
+.smart-green label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+
+    .smart-green label > span {
+        float: left;
+        margin-top: 10px;
+        color: #0078D7;
+    }
+
+.smart-green input[type="text"], .smart-green textarea {
+    color: #555;
+    height: 30px;
+    line-height: 15px;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+    margin-top: 2px;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    font: normal 14px/14px Arial, Helvetica, sans-serif;
+}
+
+.smart-green textarea {
+    height: 100px;
+    padding-top: 10px;
+}
+
+
+
+.smart-green .button {
+    background-color: #0078D7;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #949494;
+}
+
+.message-box .button1 {
+    background-color: #004578;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #949494;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+.message-body {
+    font: normal 14px/14px Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #ff0000;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
