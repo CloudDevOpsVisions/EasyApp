@@ -241,7 +241,7 @@ div:empty {
 }
 
 .color2 {
-    background: #2ECC71;
+    /* background: #2ECC71; */
 }
 
 .color3 {
@@ -254,6 +254,10 @@ div:empty {
 
 .color5 {
     background: #34495E;
+}
+
+.color6 {
+    background: #ff0000;
 }
 .setting-style {
     display: block;
