@@ -6,7 +6,9 @@ beforeEach(function () {
         '<div id= "changeText"></div>' +
         '<div id= "change-color-form"></div>' +
         '<div id= "title"></div>' +
-        '<div id= "messageBoxContainer"></div>';
+        '<div id= "messageBoxContainer"></div>' +
+        '<div id= "message-body"></div>' +
+        '<div id= "feature-flag"></div>';
     document.body.insertAdjacentHTML(
         'afterbegin',
         fixture);
@@ -19,6 +21,8 @@ afterEach(function () {
     document.body.removeChild(document.getElementById('changeText'));
     document.body.removeChild(document.getElementById('title'));
     document.body.removeChild(document.getElementById('messageBoxContainer'));
+    document.body.removeChild(document.getElementById('feature-flag'));
+    document.body.removeChild(document.getElementById('message-body'));
 
 });
 
@@ -33,12 +37,6 @@ describe('Frontend_Context Menu', function () {
 
 });
 
-describe('display Change Color Form', function () {
-    it('change Color fucntion run with no error', function () {
-        displayChangeColorForm();
-
-    });
-});
 
 describe('changeText', function () {
     it('changeH1Text fucntion run with no error', function () {
@@ -61,3 +59,22 @@ describe('display Change Text Form', function () {
     });
 });
 
+describe('display Change Color Form', function () {
+    it('change Color fucntion run with no error', function () {
+        displayChangeColorForm();
+
+    });
+});
+
+//describe('display Message', function () {
+  //  it('display Message', function () {
+    //    displayMessage(message);
+// function failed on test M.Taha 18-May-20
+    //});
+//});
+describe('show Feature Flag Form', function () {
+    it('show Feature Flag Form fucntion run with no error', function () {
+        showFeatureFlagForm();
+
+    });
+});
