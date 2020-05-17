@@ -2,8 +2,8 @@
 
 beforeEach(function () {
     var fixture = '<div id="menu"></div>' +
-        '<div id="change-text-form"></div>' +
-        '<div id="change-color-form"></div>';
+        '<div id= "change-text-form"></div>' +
+        '<div id= "change-color-form"></div>';
 
     document.body.insertAdjacentHTML(
         'afterbegin',
@@ -14,6 +14,7 @@ afterEach(function () {
     document.body.removeChild(document.getElementById('menu'));
     document.body.removeChild(document.getElementById('change-text-form'));
     document.body.removeChild(document.getElementById('change-color-form'));
+
 });
 
 
@@ -26,3 +27,12 @@ describe('Frontend_Context Menu', function () {
     });
 
 });
+
+describe('display Change Color Form', function () {
+    it('change Color fucntion run with no error', function () {
+        displayChangeColorForm();
+
+    });
+});
+
+
