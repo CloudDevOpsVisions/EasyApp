@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Gruntfile.js" />
+    <Content Include="Tests\CalcFunctionsTests.js" />
     <Content Include="Tests\UIFunctionsTests.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

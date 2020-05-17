@@ -3,8 +3,9 @@
 beforeEach(function () {
     var fixture = '<div id="menu"></div>' +
         '<div id= "change-text-form"></div>' +
-        '<div id= "change-color-form"></div>';
-
+        '<div id= "changeText"></div>' +
+        '<div id= "change-color-form"></div>' +
+        '<div id= "title"></div>';
     document.body.insertAdjacentHTML(
         'afterbegin',
         fixture);
@@ -14,7 +15,8 @@ afterEach(function () {
     document.body.removeChild(document.getElementById('menu'));
     document.body.removeChild(document.getElementById('change-text-form'));
     document.body.removeChild(document.getElementById('change-color-form'));
-
+    document.body.removeChild(document.getElementById('changeText'));
+    document.body.removeChild(document.getElementById('title'));
 });
 
 
@@ -34,5 +36,14 @@ describe('display Change Color Form', function () {
 
     });
 });
+
+describe('changeText', function () {
+    it('changeH1Text fucntion run with no error', function () {
+        changeH1Text();
+
+    });
+});
+
+
 
 
