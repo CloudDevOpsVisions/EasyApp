@@ -5,7 +5,8 @@ beforeEach(function () {
         '<div id= "change-text-form"></div>' +
         '<div id= "changeText"></div>' +
         '<div id= "change-color-form"></div>' +
-        '<div id= "title"></div>';
+        '<div id= "title"></div>' +
+        '<div id= "messageBoxContainer"></div>';
     document.body.insertAdjacentHTML(
         'afterbegin',
         fixture);
@@ -17,6 +18,8 @@ afterEach(function () {
     document.body.removeChild(document.getElementById('change-color-form'));
     document.body.removeChild(document.getElementById('changeText'));
     document.body.removeChild(document.getElementById('title'));
+    document.body.removeChild(document.getElementById('messageBoxContainer'));
+
 });
 
 
@@ -44,6 +47,12 @@ describe('changeText', function () {
     });
 });
 
+describe('hideMessage', function () {
+    it('hide Message fucntion run with no error', function () {
+        hideMessage();
+
+    });
+});
 
 
 
