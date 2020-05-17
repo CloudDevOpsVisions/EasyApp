@@ -54,5 +54,10 @@ describe('hideMessage', function () {
     });
 });
 
+describe('display Change Text Form', function () {
+    it('display Change Text Form fucntion run with no error', function () {
+        displayChangeTextForm();
 
+    });
+});
 
