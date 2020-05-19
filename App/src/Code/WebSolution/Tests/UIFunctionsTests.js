@@ -8,6 +8,9 @@ beforeEach(function () {
         '<div id= "title"></div>' +
         '<div id= "messageBoxContainer"></div>' +
         '<div id= "message-body"></div>' +
+        '<div id= "sumbtn"></div>' +
+        '<div id= "dividebtn"></div>' +
+        '<div id= "subtractbtn"></div>' +
         '<div id= "feature-flag"></div>';
     document.body.insertAdjacentHTML(
         'afterbegin',
@@ -23,7 +26,9 @@ afterEach(function () {
     document.body.removeChild(document.getElementById('messageBoxContainer'));
     document.body.removeChild(document.getElementById('feature-flag'));
     document.body.removeChild(document.getElementById('message-body'));
-
+    document.body.removeChild(document.getElementById('sumbtn'));
+    document.body.removeChild(document.getElementById('dividebtn'));
+    document.body.removeChild(document.getElementById('subtractbtn'));
 });
 
 
@@ -66,12 +71,13 @@ describe('display Change Color Form', function () {
     });
 });
 
-//describe('display Message', function () {
-  //  it('display Message', function () {
-    //    displayMessage(message);
-// function failed on test M.Taha 18-May-20
-    //});
-//});
+describe('display Message', function () {
+    it('display Message', function () {
+        displayMessage();
+  });
+});
+
+
 describe('show Feature Flag Form', function () {
     it('show Feature Flag Form fucntion run with no error', function () {
         showFeatureFlagForm();
