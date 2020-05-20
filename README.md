@@ -40,7 +40,7 @@ This includes but not limits:
 
 ![DevOps Visions](https://raw.githubusercontent.com/DevOpsVisions/Docs/master/assets/MICS/DevOps-End-to-End.gif)
 
-The main goal of **EasyApp** is to use it to implement DevOps practices and principles with Cloud technologies and learn by doing for the complete life cycle. 
+The main goal of **EasyApp** is to be used to implement DevOps practices and principles with Cloud technologies and Platfroms. Inorder to learn by doing for the complete DevOps End-to-End life cycle. 
 
 So, we will go through the End-to-End process of DevOps which will include:
 1. Plan
@@ -57,10 +57,10 @@ So, we will go through the End-to-End process of DevOps which will include:
 ![DevOps Visions](https://raw.githubusercontent.com/DevOpsVisions/Docs/master/assets/MICS/community-network.gif)
 
 
-**DevOps** Visions aims to build more community champions that can help others and more people.
-You need to think of the community is just as a platform, where you just contribute to that platform and by doing so, you get recognize by people that they can trust in you, in what you are doing and in your skills and commitment. 
+**DevOps Visions** aims to build more community champions that can help others and more people.
+You need to think of the community is just as a platform, where you just contribute to this platform and by doing so, you get recognize by people that they can trust in you, in what you are doing and in your skills and commitment. 
 
-Another point, the community has more opportunities for professional network like:
+Another point, community has more opportunities for professional networks like:
 - 1St source for hiring skilled people
 - CoP
 - CoE
