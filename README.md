@@ -84,7 +84,7 @@ You need to keep connected as the following:
 
 
 # Do you have any questions or inquires?
-[See the Code of Conduct and FAQ page](https://github.com/DevOpsVisions/Docs/tree/master/mics/CoC%20and%20FAQ)
+[See the Code of Conduct and FAQ page here](https://github.com/DevOpsVisions/Docs/tree/master/mics/CoC%20and%20FAQ)
 
 ### Quick Start
 
