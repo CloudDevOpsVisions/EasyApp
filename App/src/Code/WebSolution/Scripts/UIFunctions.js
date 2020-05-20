@@ -33,7 +33,6 @@ function showDiv(){
 
 function changeH1Color(color) {
     var clickedColor = window.getComputedStyle(document.getElementById(color), null).getPropertyValue("background-color");
-
     document.getElementById('title').style.background = clickedColor;
     document.getElementById('sumbtn').style.background = clickedColor;
     document.getElementById('dividebtn').style.background = clickedColor;
