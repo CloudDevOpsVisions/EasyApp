@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/DevOpsVisions/EasyApp/issues)
+
 <h1 align="center">
 	<br>
 	<img src="https://raw.githubusercontent.com/DevOpsVisions/Docs/master/assets/Logo/DevOps-Visions_Horizontal_Concrete.png" alt="DevOps Visions Logo">
