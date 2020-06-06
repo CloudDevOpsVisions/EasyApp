@@ -9,9 +9,10 @@
 
 
 # DevOps Visions
-**DevOps Visions** is a an open source initiative, that’s aims to help people all over the world to learn DevOps and Cloud. 
+**DevOps Visions** is an open source initiative, that believes in open source education. It aims to help and educate people all over the world to learn DevOps and Cloud.
 
-It will teach/help people to implement the best practices through different activities targeting variety of technologies. 
+
+It will teach and help people to implement the best practices through different activities targeting a variety of tools, technologies, and platforms. 
 
 DevOps is one of the most emerging topics of software development today as it improves the whole software development process, but unfortunately, there is no clear, detailed and explicit model to teach the best Modern Engineering practices on real world projects, this was the main problem that leads to DevOps Visions community establishment.
 
