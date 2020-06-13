@@ -3,28 +3,28 @@
 
 <h1 align="center">
 	<br>
-	<img src="https://raw.githubusercontent.com/DevOpsVisions/Docs/master/assets/Logo/DevOps-Visions_Horizontal_Concrete.png" alt="DevOps Visions Logo">
+	<img src="https://raw.githubusercontent.com/CloudDevOpsVisions/Docs/master/assets/Logo/CloudDevOps-Visions_Horizontal_Concrete.png" alt="Cloud DevOps Visions Logo">
 	<br>
 </h1>
 
 
-# DevOps Visions
-**DevOps Visions** is an open-source initiative that believes in open-source education. It aims to help and educate people all over the world to learn DevOps and Cloud.
+# Cloud DevOps Visions
+**Cloud DevOps Visions** is an open-source initiative that believes in open-source education. It aims to help and educate people all over the world to learn DevOps and Cloud.
 
 
 It will teach and help people to implement the best practices through different activities targeting a variety of tools, technologies, and platforms. 
 
-DevOps is one of the most emerging topics of software development today as it improves the whole software development process. Still, unfortunately, there is no clear, detailed, and explicit model to teach the best Modern Engineering practices on real-world projects; this was the main problem that leads to DevOps Visions community establishment.
+DevOps is one of the most emerging topics of software development today as it improves the whole software development process. Still, unfortunately, there is no clear, detailed, and explicit model to teach the best Modern Engineering practices on real-world projects; this was the main problem that leads to Cloud DevOps Visions community establishment.
 
-# DevOps Visions provides several activities
-![DevOps Visions](https://raw.githubusercontent.com/DevOpsVisions/Docs/master/assets/MICS/DevOpsVisions-Activities.gif)
+# Cloud DevOps Visions provides several activities
+![Cloud DevOps Visions](https://raw.githubusercontent.com/CloudDevOpsVisions/Docs/master/assets/MICS/DevOpsVisions-Activities.gif)
 
-**DevOps Visions** provides different services and several guides like live stream sessions, mentoring people like helping them to improve their career path and development, or even finding a job. Also, open-source projects and many others (e.g., people can work on the DevOps open-source projects and studying group because it a place to show yourself, your skills, commitment, and passion to all the communities.
+**Cloud DevOps Visions** provides different services and several guides like live stream sessions, mentoring people like helping them to improve their career path and development, or even finding a job. Also, open-source projects and many others (e.g., people can work on the DevOps open-source projects and studying group because it a place to show yourself, your skills, commitment, and passion to all the communities.
 
 # What is EasyApp?
-![DevOps Visions](https://raw.githubusercontent.com/DevOpsVisions/Docs/master/assets/MICS/what-is-EasyApp.gif)
+![Cloud DevOps Visions](https://raw.githubusercontent.com/CloudDevOpsVisions/Docs/master/assets/MICS/what-is-EasyApp.gif)
 
-**EasyApp** is a tiny Web App provided by **DevOps** Visions. It developed in HTML, CSS, and JavaScript. It has few features and functionality but has and will include many of the DevOps practices and principles implemented in different tools, technologies, and platforms.
+**EasyApp** is a tiny Web App provided by **Cloud DevOps Visions**. It developed in HTML, CSS, and JavaScript. It has few features and functionality but has and will include many of the DevOps practices and principles implemented in different tools, technologies, and platforms.
 This includes but not limits:
 - Jasmine unit testing
 - ESlint (Static code analysis for JavaScript)
@@ -41,7 +41,7 @@ This includes but not limits:
 
 # EasyApp as End-to-End DevOps with the Cloud
 
-![DevOps Visions](https://raw.githubusercontent.com/DevOpsVisions/Docs/master/assets/MICS/DevOps-End-to-End.gif)
+![Cloud DevOps Visions](https://raw.githubusercontent.com/CloudDevOpsVisions/Docs/master/assets/MICS/DevOps-End-to-End.gif)
 
 The main goal of **EasyApp** is to be used to implement DevOps practices and principles with Cloud technologies and Platforms. To learn by doing for the complete DevOps End-to-End life cycle. 
 
@@ -55,12 +55,12 @@ So, we will go through the End-to-End process of DevOps, which will include:
 1. Configure
 1. Monitor
 
-# Why to join DevOps Visions?
+# Why to join Cloud DevOps Visions?
 
-![DevOps Visions](https://raw.githubusercontent.com/DevOpsVisions/Docs/master/assets/MICS/community-network.gif)
+![Cloud DevOps Visions](https://raw.githubusercontent.com/CloudDevOpsVisions/Docs/master/assets/MICS/community-network.gif)
 
 
-**DevOps Visions** aims to build more community champions that can help others and more people.
+**Cloud DevOps Visions** aims to build more community champions that can help others and more people.
 You need to think of the community as follows: it is just as a platform where you only contribute to this platform, and by doing so, you get recognized by people that they can trust in you, in what you are doing, and in your skills and commitment. 
 
 Another point, the community has more opportunities for professional networks like:
@@ -75,7 +75,7 @@ Another point, the community has more opportunities for professional networks li
 
 
 # How to understand more about the project? 
-![DevOps Visions](https://raw.githubusercontent.com/DevOpsVisions/Docs/master/assets/MICS/active-part.gif)
+![Cloud DevOps Visions](https://raw.githubusercontent.com/CloudDevOpsVisions/Docs/master/assets/MICS/active-part.gif)
 
 You need to keep connected as the following:
 - Keep connected, comment, like and share on GitHub and Facebook page
@@ -87,14 +87,14 @@ You need to keep connected as the following:
 
 
 # Do you have any questions or inquires?
-[See the Code of Conduct and FAQ page here](https://github.com/DevOpsVisions/Docs/tree/master/mics/CoC%20and%20FAQ)
+[See the Code of Conduct and FAQ page here](https://github.com/CloudDevOpsVisions/Docs/tree/master/mics/CoC%20and%20FAQ)
 
 ### Quick Start
 
 Run the following commands and replace the BranchName with the name of the branch you want to clone.
 
 ```
-git clone https://github.com/DevOpsVisions/EasyApp.git  -b BranchName
+git clone https://github.com/CloudDevOpsVisions/EasyApp.git  -b BranchName
 cd EasyApp
 ```
 
