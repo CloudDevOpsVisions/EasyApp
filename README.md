@@ -35,13 +35,6 @@ So, we will go through the End-to-End process of DevOps, which will include:
 1. Configure
 1. Monitor
 
-<h1 align="center">
-	<br>
-	<img src="https://raw.githubusercontent.com/CloudDevOpsVisions/Docs/master/assets/Logo/CloudDevOps-Visions_Horizontal_Concrete.png" alt="Cloud DevOps Visions Logo">
-	<br>
-</h1>
-
-
 # An overview about Cloud DevOps Visions
 **Cloud DevOps Visions** is an open-source initiative that believes in open-source education. It aims to help and educate people all over the world to learn DevOps and Cloud.
 
@@ -49,6 +42,12 @@ So, we will go through the End-to-End process of DevOps, which will include:
 It will teach and help people to implement the best practices through different activities targeting a variety of tools, technologies, and platforms. 
 
 DevOps is one of the most emerging topics of software development today as it improves the whole software development process. Still, unfortunately, there is no clear, detailed, and explicit model to teach the best Modern Engineering practices on real-world projects; this was the main problem that leads to Cloud DevOps Visions community establishment.
+
+<h1 align="left">
+	<br>
+	<img src="https://raw.githubusercontent.com/CloudDevOpsVisions/Docs/master/assets/Logo/CloudDevOps-Visions_Horizontal_Concrete.png" alt="Cloud DevOps Visions Logo">
+	<br>
+</h1>
 
 # Cloud DevOps Visions provides several activities
 ![Cloud DevOps Visions](https://raw.githubusercontent.com/CloudDevOpsVisions/Docs/master/assets/MICS/DevOpsVisions-Activities.gif)
