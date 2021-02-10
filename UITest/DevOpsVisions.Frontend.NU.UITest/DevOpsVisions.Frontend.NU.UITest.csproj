@@ -75,7 +75,6 @@
     <Compile Include="common\BrowserType.cs" />
     <Compile Include="common\HomePage.cs" />
     <Compile Include="TestBase.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
